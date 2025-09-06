@@ -1,0 +1,16 @@
+{
+  "name": "smartcart-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed:products": "node seed.js",
+    "seed:admin": "node createadmin.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.4",
+    "mongoose": "^7.6.1"
+  }
+}
