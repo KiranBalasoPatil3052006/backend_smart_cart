@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 // CORS setup: allow requests from your hosted frontend or local dev
 app.use(cors({
   origin: [
-    'https://smart-cart-app-h47v.onrender.com', // your hosted web frontend (if any)
+    'https://backend-smart-cart.onrender.com', // your hosted web frontend (if any)
     'http://localhost:8000',
     'http://127.0.0.1:8000',
   ],
